@@ -64,6 +64,7 @@ user-3 EC2
 <img width="1919" height="1024" alt="image" src="https://github.com/user-attachments/assets/467d2c50-645d-4cc2-b857-227c5bb27f83" />
 <img width="1919" height="871" alt="image" src="https://github.com/user-attachments/assets/810b34e6-4bff-499e-8e15-4aa3fca5d371" />
 i can stop instance because i have admin permissions
+<br>
 <i>Author:bishoy maged</i>
 
 
