@@ -1,18 +1,33 @@
-<h1>IAM (Identity and Access Management)</h1>
-Goal
-IAM is used to manage who can access an account and what actions they can perform.
-Core Components
-1. Identity (Who?)
-- IAM Users: Individual accounts for specific people.
-- IAM Groups: Collections of users to simplify permission management.
-- IAM Roles: Temporary identities used for delegation or cross-service access.
-2. Access (What?) on [IAM users, Resources]
-- IAM Policies: JSON documents that define permissions (Authorization).
-3. Management (Administration)
-Admins are responsible for:
-- Creating users.
-- Creating groups.
-- Attaching policies to control permissions.
+## AWS IAM Overview
+
+**Goal:**  
+IAM is used to manage **who can access an account** and **what actions they can perform**.
+
+---
+
+## Core Components
+
+### 1. Identity (Who?)
+- **IAM Users:** Individual accounts for specific people.
+- **IAM Groups:** Collections of users to simplify permission management.
+- **IAM Roles:** Temporary identities used for delegation or cross-service access.
+
+---
+
+### 2. Access (What?)
+- **IAM Policies:**  
+  JSON documents that define permissions (**Authorization**) and control access to:
+  - IAM Users
+  - Resources
+
+---
+
+### 3. Management (Administration)
+Administrators are responsible for:
+- Creating users
+- Creating groups
+- Attaching policies to control permissions
+
 <h2>lab IAM </h2>
 <img width="1919" height="230" alt="image" src="https://github.com/user-attachments/assets/1c90a9ef-de71-483f-b67a-dc8af32dc98b" />
 Existing users
