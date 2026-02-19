@@ -15,6 +15,9 @@ In this task, you create a bucket to hold your EC2 report data and then examine 
 ## ADD an object to the bucket
 <img width="1919" height="625" alt="image" src="https://github.com/user-attachments/assets/e524cc1c-4c7f-46da-9819-9e88aecb6d70" />
 <img width="1894" height="874" alt="image" src="https://github.com/user-attachments/assets/fa2ac416-0996-4db6-a2ff-22c8d56f7e60" />
+
+-------------------------
+
 ## Make an object public
 s3://reportbucket-099818743643/new-report.png
 Access Dinied
@@ -28,11 +31,17 @@ Make public using acl
 <img width="1919" height="76" alt="image" src="https://github.com/user-attachments/assets/94b0bf61-9c5a-4ab6-bd8b-091e44577f5e" />
 <img width="1919" height="653" alt="image" src="https://github.com/user-attachments/assets/c529a52d-0cb1-4f90-b42e-d0f3358e24d8" />
 <img width="1919" height="1026" alt="image" src="https://github.com/user-attachments/assets/a8f4c96b-4d96-4d53-9980-d6feabca42f6" />
+
+----------
+
 ## Test connectivity from the EC2 instance
 <img width="1919" height="206" alt="image" src="https://github.com/user-attachments/assets/2532dfd8-eef3-4b1f-bc75-468e7189fe48" />
 <img width="1919" height="237" alt="image" src="https://github.com/user-attachments/assets/0acfa48e-7552-4c10-a5b2-f94dbdd9cc9b" />
 <img width="1919" height="873" alt="image" src="https://github.com/user-attachments/assets/e99ab347-8fcd-422a-a40f-4cb820bcf8fe" />
 <img width="1919" height="429" alt="image" src="https://github.com/user-attachments/assets/313ee581-76bc-410d-a407-fd53e587976e" />
+
+------------
+
 ## Create a bucket policy
 <img width="1919" height="608" alt="image" src="https://github.com/user-attachments/assets/13fd2d27-0b88-483b-a23f-313b28d83d8f" />
 <img width="1919" height="874" alt="image" src="https://github.com/user-attachments/assets/67669d1b-5b5e-4184-a7e8-5461261888ba" />
@@ -49,3 +58,15 @@ i need to make it public access, the default access to objects is denied
 principle role: that means who has the access to this s3 put and get objects (EC2)
 <img width="1919" height="474" alt="image" src="https://github.com/user-attachments/assets/1d5aa17b-dcaa-4d43-bbd9-06c1341cd5b5" />
 
+---------------
+
+## Explore versioning
+
+<img width="1891" height="634" alt="image" src="https://github.com/user-attachments/assets/ca74127c-51cc-4cca-b115-891bcd084e9d" />
+<img width="1918" height="662" alt="image" src="https://github.com/user-attachments/assets/a9380bb7-cc7c-4703-8fe1-89aeb7810eef" />
+<img width="1919" height="922" alt="image" src="https://github.com/user-attachments/assets/f328170e-6d85-4ba4-aa74-7c9a34aa3c1e" />
+<img width="1919" height="919" alt="image" src="https://github.com/user-attachments/assets/64ddbe32-7455-43b9-8ad8-b51df326531c" />
+<img width="1919" height="677" alt="image" src="https://github.com/user-attachments/assets/d60e2eb8-5182-4ae0-b007-37812b76010b" />
+<img width="1919" height="634" alt="image" src="https://github.com/user-attachments/assets/da790179-7e59-49a2-9d43-480d57bc94cb" />
+<img width="1914" height="820" alt="image" src="https://github.com/user-attachments/assets/930742b9-7a6d-4903-8ce1-f97dc1a4f224" />
+when you delete, it deletes the last version only
